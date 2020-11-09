@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputBox{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    width: 25%;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    padding: 30px;
+    
+}
+
+.inputBox:hover{
+    transform: scale(1.1);
+    border: 5px solid white;
+    border: 4px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    font-size: 40px;
+}
+
+.heading{
+    text-align: center;
+    position: absolute;
+    right: 44%;
+    margin-top: 50px;
+    font-size: 20px;
+}
